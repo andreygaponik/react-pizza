@@ -1,0 +1,31 @@
+.input_search {
+  padding: 10px 15px;
+  width: 300px;
+  border-color: rgba(0,0,0, 0.1);
+  border-radius: 3px;
+  transition: .2s;
+
+  &:focus {
+    width: 320px;
+    border-color: rgba(0,0,0, 0.2);
+  }
+}
+
+.search {
+  position: relative;
+}
+
+.clear {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 8px;
+  top: 12px;
+  opacity: .5;
+  cursor: pointer;
+  transition: .2s;
+
+  &:hover {
+    opacity: .7;
+  }
+}

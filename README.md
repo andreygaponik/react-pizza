@@ -11,3 +11,7 @@
 - React Content Loader
 - Lodash.Debounce
 - Mockapi
+
+# Init
+npm install
+npm start
